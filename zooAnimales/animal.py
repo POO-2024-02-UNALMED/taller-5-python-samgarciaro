@@ -43,3 +43,7 @@ class Animal:
     def total_por_tipo(cls):
         return (f"Mamíferos: {Mamifero.cantidad_mamiferos()}, Aves: {Ave.cantidad_aves()}, Reptiles: {Reptil.cantidad_reptiles()}, "
                 f"Peces: {Pez.cantidad_peces()}, Anfibios: {Anfibio.cantidad_anfibios()}")
+    
+    def toString(self):
+        return (f"Mi nombre es {self._nombre}, tengo una edad de {self._edad}, "
+                f"habito en {self._habitat} y mi genero es {self._genero}")
