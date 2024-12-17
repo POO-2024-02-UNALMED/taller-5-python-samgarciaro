@@ -8,16 +8,16 @@ class Animal:
         self.__zona=None
         Animal.totalAnimales += 1
 
-    def get_nombre(self):
+    def getNombre(self):
         return self.__nombre
 
-    def set_nombre(self, nombre):
+    def setNombre(self, nombre):
         self.__nombre = nombre
 
-    def get_edad(self):
+    def getEdad(self):
         return self.__edad
 
-    def set_edad(self, edad):
+    def setEdad(self, edad):
         self.__edad = edad
 
     def movimiento(self):
