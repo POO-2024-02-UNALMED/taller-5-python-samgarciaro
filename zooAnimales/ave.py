@@ -1,4 +1,4 @@
-from Animal import Animal
+from zooAnimales.Animal import Animal
 
 class Ave(Animal):
     halcones = 0

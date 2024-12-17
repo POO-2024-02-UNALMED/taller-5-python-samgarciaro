@@ -1,4 +1,4 @@
-from Animal import Animal
+from zooAnimales.Animal import Animal
 
 class Pez(Animal):
     salmones = 0
