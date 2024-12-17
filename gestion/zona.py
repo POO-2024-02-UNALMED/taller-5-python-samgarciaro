@@ -13,6 +13,6 @@ class Zona:
     def getNombre(self):
         return self.__nombre
 
-    def getZoologico(self):
+    def getZoo(self):
         return self.__zoologico
 
