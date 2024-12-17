@@ -1,3 +1,5 @@
+from Animal import Animal
+
 class Anfibio(Animal):
     ranas = 0
     salamandras = 0

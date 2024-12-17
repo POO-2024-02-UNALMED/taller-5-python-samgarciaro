@@ -1,3 +1,5 @@
+from Animal import Animal
+
 class Pez(Animal):
     salmones = 0
     bacalaos = 0
